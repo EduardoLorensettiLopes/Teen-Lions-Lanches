@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #F0F0F0;
+}
+
+.nav {
+    font-size: 20px;
+    padding: 5px;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.nav span {
+    color: #ec5700;
+    font-size: 18px;
+}
+
+.main {
+    padding: 35px;
+}
+
+.container {
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1024px;
+}
+
+.card {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+}
+
+.container-img img {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+
+.container-info {
+    padding: 5px;
+    text-align: justify;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-preco {
+    border-top: 3px solid #F0F0F0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-icone img {
+    padding: 5px;
+    border: 1px solid #c9c4c4;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
